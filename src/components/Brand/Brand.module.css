@@ -10,3 +10,7 @@
         height: 16.67px;
     }
 }
+
+h4 {
+  text-transform: uppercase;
+}

@@ -27,16 +27,16 @@
       "subTitle": "Info",
       "links": [
         {
-          "text": "About Us",
+          "text": "About",
           "link": "/about"
         },
         {
-          "text": "Journal",
-          "link": "/blog"
+          "text": "Gallery",
+          "link": "/shop"
         },
         {
-          "text": "Privacy Policy",
-          "link": "/support#policy"
+          "text": "Process",
+          "link": "/process"
         }
       ]
     },
@@ -64,7 +64,7 @@
   ],
   "headerLinks": [
     {
-      "menuLabel": "Shop",
+      "menuLabel": "Gallery",
       "menuLink": "/shop",
       "category": [
         {
@@ -129,8 +129,8 @@
       ]
     },
     {
-      "menuLabel": "journal",
-      "menuLink": "/blog",
+      "menuLabel": "Process",
+      "menuLink": "/process",
       "category": null
     },
     {
