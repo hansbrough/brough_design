@@ -43,6 +43,7 @@ const Contact = (props) => {
 
       <div className={styles.contactContainer}>
         <form
+          method="POST"
           onSubmit={(e) => handleSubmit(e)}
           name="contact"
           data-netlify="true"
@@ -60,7 +61,7 @@ const Contact = (props) => {
               id={'phone'}
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
-              type={'tel'}
+              type={'text'}
               labelName={'Phone Number'}
               required
             />
