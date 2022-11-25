@@ -42,7 +42,11 @@ const Contact = (props) => {
       </div>
 
       <div className={styles.contactContainer}>
-        <form onSubmit={(e) => handleSubmit(e)} name="contact" netlify>
+        <form
+          onSubmit={(e) => handleSubmit(e)}
+          name="contact"
+          data-netlify="true"
+        >
           <div className={styles.contactForm}>
             <FormInputField
               id={'name'}
