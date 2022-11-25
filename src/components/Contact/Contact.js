@@ -60,7 +60,7 @@ const Contact = (props) => {
               id={'phone'}
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
-              type={'number'}
+              type={'tel'}
               labelName={'Phone Number'}
               required
             />
