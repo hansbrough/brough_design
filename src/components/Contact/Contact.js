@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Button from '../Button';
+import { navigate } from 'gatsby';
 
 import FormInputField from '../FormInputField/FormInputField';
 
@@ -22,7 +23,18 @@ const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setContactForm(initialState);
+    console.log("handleSubmit contactForm:",contactForm);
+    const formData = Object.assign({"form-name": "contact"}, contactForm);
+    const encodedFormData = new URLSearchParams(formData).toString();
+    console.log("--- encodedFormData:",encodedFormData)
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encodedFormData
+    })
+    .then(() => navigate("/"))
+    .catch(error => alert(error));
+    //setContactForm(initialState);
   };
 
   return (
@@ -43,11 +55,11 @@ const Contact = (props) => {
 
       <div className={styles.contactContainer}>
         <form
-          method="POST"
           onSubmit={(e) => handleSubmit(e)}
           name="contact"
           data-netlify="true"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div className={styles.contactForm}>
             <FormInputField
               id={'name'}
