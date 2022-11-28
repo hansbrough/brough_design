@@ -9,7 +9,11 @@ const Dropdown = (props) => {
     <div className={styles.root}>
       <span className={styles.label}>{label}</span>
       <div className={styles.selectContainer}>
-        <select id={id} onChange={(e) => handleChange(id, e.target.value)} >
+        <select
+          id={id}
+          name={id}
+          onChange={(e) => handleChange(id, e.target.value)}
+        >
           {optionList.map((option) => (
             <option
               key={option.label}
