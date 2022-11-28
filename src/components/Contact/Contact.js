@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Button from '../Button';
 import Dropdown from '../Dropdown/Dropdown';
 import { navigate } from 'gatsby';
@@ -19,6 +19,10 @@ const Contact = (props) => {
 
   const [contactForm, setContactForm] = useState(initialState);
 
+  useEffect(() => {
+    console.log("useEffect contactForm:",contactForm)
+  },[contactForm])
+
   const handleChange = (id, e) => {
     console.log("handleChange id:",id," e:",e);
     const tempForm = { ...contactForm, [id]: e };
@@ -28,6 +32,7 @@ const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = Object.assign({"form-name": "contact"}, contactForm);
+    console.log("handleSubmit formData:",formData)
     const encodedFormData = new URLSearchParams(formData).toString();
     fetch("/", {
       method: "POST",
@@ -88,7 +93,7 @@ const Contact = (props) => {
             />
             <FormInputField
               id={'address'}
-              value={contactForm.phone}
+              value={contactForm.address}
               handleChange={(id, e) => handleChange(id, e)}
               type={'text'}
               labelName={'Project Site Address'}
