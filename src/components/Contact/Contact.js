@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Button from '../Button';
 import Dropdown from '../Dropdown/Dropdown';
 import { navigate } from 'gatsby';
@@ -19,10 +19,6 @@ const Contact = (props) => {
 
   const [contactForm, setContactForm] = useState(initialState);
 
-  useEffect(() => {
-    console.log("useEffect contactForm:",contactForm)
-  },[contactForm])
-
   const handleChange = (id, e) => {
     console.log("handleChange id:",id," e:",e);
     const tempForm = { ...contactForm, [id]: e };
@@ -39,7 +35,7 @@ const Contact = (props) => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encodedFormData
     })
-    .then(() => navigate("/"))
+    //.then(() => navigate("/"))
     .catch(error => alert(error));
   };
 
@@ -115,11 +111,11 @@ const Contact = (props) => {
                 handleChange={(id, e) => handleChange(id, e)}
                 label="Estimated Budget (Total Project)"
                 optionList = {[
-                  {label:"$15,000 - $30,000", value:"$15,000 - $30,000"},
-                  {label:"$30,000 - 60,000", value:"$30,000 - 60,000"},
-                  {label:"$60,000 - 100,000", value:"$60,000 - 100,000"},
-                  {label:"$100,000 - 150,000", value:"$100,000 - 150,000"},
-                  {label:"$150,000 + ", value:"$150,000 + "}
+                  {label:"$15,000 - $30,000", value:"15k_30k"},
+                  {label:"$30,000 - 60,000", value:"30k_60k"},
+                  {label:"$60,000 - 100,000", value:"60k_100k"},
+                  {label:"$100,000 - 150,000", value:"100k_150k"},
+                  {label:"$150,000 + ", value:"150K+"}
                 ]}
                 required
               >
