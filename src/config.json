@@ -36,7 +36,7 @@
         },
         {
           "text": "Process",
-          "link": "/process"
+          "link": "/about/#process"
         }
       ]
     },
@@ -50,14 +50,6 @@
         {
           "text": "Contact Us",
           "link": "/support#contact"
-        },
-        {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
         }
       ]
     }
@@ -127,11 +119,6 @@
           ]
         }
       ]
-    },
-    {
-      "menuLabel": "Process",
-      "menuLink": "/process",
-      "category": null
     },
     {
       "menuLabel": "About",

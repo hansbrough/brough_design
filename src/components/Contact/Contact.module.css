@@ -33,6 +33,10 @@
     grid-column: 1 / span 2;
 }
 
+.budgetRange {
+  margin-bottom: 32px;
+}
+
 .customButton {
     width: 220px;
 }
@@ -47,7 +51,7 @@
     }
 
     .commentInput {
-        grid-column: 1; 
+        grid-column: 1;
     }
 
     .customButton {

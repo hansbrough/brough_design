@@ -11,15 +11,11 @@ import Container from '../components/Container';
 
 const SupportPage = (props) => {
   const subpages = [
-    { title: 'Shipping', key: 'shipping' },
-    { title: 'Returns', key: 'returns' },
-    { title: 'Payments & Security', key: 'payments' },
-    { title: 'Terms & Conditions', key: 'terms' },
     { title: 'Contact Us', key: 'contact' },
-    { title: 'Privacy Policy', key: 'policy' },
+    { title: 'Billing', key: 'billing' },
   ];
 
-  const [current, setCurrent] = useState(subpages[4]);
+  const [current, setCurrent] = useState(subpages[0]);
 
   const renderElement = (key) => {
     let tempElement = <React.Fragment />;
@@ -28,19 +24,7 @@ const SupportPage = (props) => {
       case 'contact':
         tempElement = <Contact />;
         break;
-      case 'policy':
-        tempElement = <Policy />;
-        break;
-      case 'shipping':
-        tempElement = <Policy />;
-        break;
-      case 'returns':
-        tempElement = <Policy />;
-        break;
-      case 'payments':
-        tempElement = <Policy />;
-        break;
-      case 'terms':
+      case 'billing':
         tempElement = <Policy />;
         break;
       default:
@@ -72,7 +56,7 @@ const SupportPage = (props) => {
         <Banner
           maxWidth={'650px'}
           name={current.title}
-          bgImage={'/support.png'}
+          bgImage={'/IMG_7394.JPG'}
           color={'var(--standard-white)'}
           height={'350px'}
         />

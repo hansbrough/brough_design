@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Button from '../Button';
+import Dropdown from '../Dropdown/Dropdown';
 import { navigate } from 'gatsby';
 
 import FormInputField from '../FormInputField/FormInputField';
@@ -11,22 +12,23 @@ const Contact = (props) => {
     name: '',
     phone: '',
     email: '',
-    comment: '',
+    address: '',
+    description: '',
+    budget: ''
   };
 
   const [contactForm, setContactForm] = useState(initialState);
 
   const handleChange = (id, e) => {
+    console.log("handleChange id:",id," e:",e);
     const tempForm = { ...contactForm, [id]: e };
     setContactForm(tempForm);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("handleSubmit contactForm:",contactForm);
     const formData = Object.assign({"form-name": "contact"}, contactForm);
     const encodedFormData = new URLSearchParams(formData).toString();
-    console.log("--- encodedFormData:",encodedFormData)
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -34,7 +36,6 @@ const Contact = (props) => {
     })
     .then(() => navigate("/"))
     .catch(error => alert(error));
-    //setContactForm(initialState);
   };
 
   return (
@@ -49,7 +50,7 @@ const Contact = (props) => {
         <h4>Email</h4>
         <p>
           You can email us at info@broughdesign.com
-          or via the contact form below:
+          or via the contact form below to tell us about your project.
         </p>
       </div>
 
@@ -85,15 +86,39 @@ const Contact = (props) => {
               labelName={'Email'}
               required
             />
+            <FormInputField
+              id={'address'}
+              value={contactForm.phone}
+              handleChange={(id, e) => handleChange(id, e)}
+              type={'text'}
+              labelName={'Project Site Address'}
+              required
+            />
             <div className={styles.commentInput}>
               <FormInputField
-                id={'comment'}
-                value={contactForm.comment}
+                id={'description'}
+                value={contactForm.description}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'textarea'}
-                labelName={'Comments / Questions'}
+                labelName={'Brief Project Description'}
                 required
               />
+            </div>
+            <div className={styles.budgetRange}>
+              <Dropdown
+                id={'budget'}
+                handleChange={(id, e) => handleChange(id, e)}
+                label="Estimated Budget (Total Project)"
+                optionList = {[
+                  {label:"$15,000 - $30,000", value:"$15,000 - $30,000"},
+                  {label:"$30,000 - 60,000", value:"$30,000 - 60,000"},
+                  {label:"$60,000 - 100,000", value:"$60,000 - 100,000"},
+                  {label:"$100,000 - 150,000", value:"$100,000 - 150,000"},
+                  {label:"$150,000 + ", value:"$150,000 + "}
+                ]}
+                required
+              >
+              </Dropdown>
             </div>
           </div>
           <Button

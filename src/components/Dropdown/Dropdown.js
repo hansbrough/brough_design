@@ -3,13 +3,13 @@ import Icon from '../Icons/Icon';
 import * as styles from './Dropdown.module.css';
 
 const Dropdown = (props) => {
-  const { label, optionList } = props;
+  const { id, label, optionList, handleChange } = props;
 
   return (
     <div className={styles.root}>
       <span className={styles.label}>{label}</span>
       <div className={styles.selectContainer}>
-        <select>
+        <select id={id} onChange={(e) => handleChange(id, e.target.value)} >
           {optionList.map((option) => (
             <option
               key={option.label}

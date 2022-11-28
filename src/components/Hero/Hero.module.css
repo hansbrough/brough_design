@@ -27,10 +27,11 @@
     font-weight: normal;
     text-align: center;
     white-space: pre-wrap;
+    text-shadow: 2px 2px 2px var(--standard-dark-grey);
 }
 
 .subtitle {
-    
+
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -39,11 +40,11 @@
 
 .ctaButton {
     width: 180px;
-    
+
 }
 
 .ctaLink {
-    
+
     text-transform: uppercase;
     color: var(--standard-white);
     border-bottom: 1px solid var(--standard-white);
