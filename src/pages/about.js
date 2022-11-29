@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from 'gatsby';
 
 import Container from '../components/Container';
 import Hero from '../components/Hero';
@@ -67,22 +68,36 @@ const AboutPage = (props) => {
             <h3>Process</h3>
             <div ref={processRef}>
               <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
+                We've found that a successful landscape design project generally follows a few basic steps.
               </p>
-              <ol>
-                <li>Be an ecowear</li>
-                <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
-              </ol>
+              <h5>Inquiry</h5>
+              <p>
+                Use the <Link to="/support#contact">Contact Us</Link> page to share details about your landscape project.  We'll set up a short phone session to make sure that we're a good fit for your project.
+              </p>
+              <h5>Consultation</h5>
+              <p>
+                During an onsite visit we will talk about what works currently, any garden goals you may have, challenges the site poses, scope of work, budget, and generally get a sense of your lifestyle insofar as it might impact the garden space.
+                We may propose a few ideas based on questions that arise from the visit. You can expect the site visit to last from 1 to 2 hours and is billed as a flat fee of $150.
+              </p>
+              <h5>Site Analysis and Inspiration</h5>
+              <p>
+                If we agree to proceed after the consultation The next steps are to measure, map and analyze your site in order to create a base plan which will be used as design alternatives are explored.
+                We will also work together to catalog inspirational plants, materials and garden designs from around the neighborhood, online or from books as a tool to understand your preferences.
+              </p>
+              <h5>Conceptual Designs</h5>
+              <p>
+                We will propose a few alternative designs, drawn to scale, and collaborate to determine what works best with regards to topics such as circulation patterns, sitelines, plants and of course your aesthetic preferences.
+                Decisions made at this stage help to inform the final design.
+              </p>
+              <h5>Final Design Plan</h5>
+              <p>
+                Decisions made during conceptual design phase will be formalized in a set of final design documents which can be used to solicit bids from contractors.
+              </p>
+              <h5>Implementation</h5>
+              <p>
+                During the construction phase we will be available to advise and work through any challenges that may arise.
+                We can also act as an advocate on your behalf during installation - for example ensuring that plant layout matches the design.
+              </p>
               <img alt={'wall construction'} src={'/IMG_2892.jpg'}></img>
             </div>
 

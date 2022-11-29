@@ -20,7 +20,6 @@ const Contact = (props) => {
   const [contactForm, setContactForm] = useState(initialState);
 
   const handleChange = (id, e) => {
-    console.log("handleChange id:",id," e:",e);
     const tempForm = { ...contactForm, [id]: e };
     setContactForm(tempForm);
   };
@@ -28,14 +27,13 @@ const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const formData = Object.assign({"form-name": "contact"}, contactForm);
-    console.log("handleSubmit formData:",formData)
     const encodedFormData = new URLSearchParams(formData).toString();
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encodedFormData
     })
-    //.then(() => navigate("/"))
+    .then(() => navigate("/"))
     .catch(error => alert(error));
   };
 
@@ -50,8 +48,8 @@ const Contact = (props) => {
       <div className={styles.section}>
         <h4>Email</h4>
         <p>
-          You can email us at info@broughdesign.com
-          or via the contact form below to tell us about your project.
+          You can email us at info@broughdesign.com with questions
+          or use the contact form below to tell us about your project.
         </p>
       </div>
 
@@ -111,6 +109,7 @@ const Contact = (props) => {
                 handleChange={(id, e) => handleChange(id, e)}
                 label="Estimated Budget (Total Project)"
                 optionList = {[
+                  {label:"under $15,000", value:"-15k"},
                   {label:"$15,000 - $30,000", value:"15k_30k"},
                   {label:"$30,000 - 60,000", value:"30k_60k"},
                   {label:"$60,000 - 100,000", value:"60k_100k"},
