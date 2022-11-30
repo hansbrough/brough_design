@@ -10,7 +10,7 @@ import * as styles from './about.module.css';
 const AboutPage = (props) => {
   let profileRef = useRef();
   let processRef = useRef();
-  let sustainabilityRef = useRef();
+  let plantsRef = useRef();
 
   const handleScroll = (elementReference) => {
     if (elementReference) {
@@ -38,6 +38,9 @@ const AboutPage = (props) => {
           <ThemeLink onClick={() => handleScroll(processRef)} to={'#process'}>
             Process
           </ThemeLink>
+          <ThemeLink onClick={() => handleScroll(plantsRef)} to={'#plants'}>
+            Plants
+          </ThemeLink>
         </div>
 
         <Container size={'large'} spacing={'min'}>
@@ -60,7 +63,7 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'shirt brand'} src={'/agave-salmiana-ferox.jpg'}></img>
+          <img alt={'waterwise garden wall'} src={'/agave-salmiana-ferox.jpg'}></img>
         </div>
 
         <Container size={'large'} spacing={'min'}>
@@ -81,7 +84,8 @@ const AboutPage = (props) => {
               </p>
               <h5>Site Analysis and Inspiration</h5>
               <p>
-                If we agree to proceed after the consultation The next steps are to measure, map and analyze your site in order to create a base plan which will be used as design alternatives are explored.
+                If we both agree to proceed after the consultation The next steps are to measure, map and analyze your site in order to create a base plan which will be used as design alternatives are explored.
+                Site analysis includes investigating local ordinances that may impact your landscape project.
                 We will also work together to catalog inspirational plants, materials and garden designs from around the neighborhood, online or from books as a tool to understand your preferences.
               </p>
               <h5>Conceptual Designs</h5>
@@ -96,14 +100,50 @@ const AboutPage = (props) => {
               <h5>Implementation</h5>
               <p>
                 During the construction phase we will be available to advise and work through any challenges that may arise.
-                We can also act as an advocate on your behalf during installation - for example ensuring that plant layout matches the design.
+                We can also act as an advocate on your behalf during installation - for example ensuring that plant and path layouts matches the design.
+                As a licensed nursery sourcing plant materials is one of specialties so we can work with your contractor to find quality plants.
               </p>
-              <img alt={'wall construction'} src={'/IMG_2892.jpg'}></img>
+            </div>
+          </div>
+        </Container>
+
+        <div className={styles.imageContainer}>
+          <img alt={'waterwsie nursery plants'} src={'/nursery_plants.jpg'}></img>
+        </div>
+
+        <Container size={'large'} spacing={'min'}>
+          <div className={styles.content}>
+            <h3>Plants</h3>
+            <div ref={plantsRef}>
+              <p>
+                Sometimes it can be a challenge to source plants included in a garden design.
+              </p>
+              <h5>Sourcing</h5>
+              <p>
+                Landscape and specimen sized plants can be hard to find which is part of why we decided to become a licensed nursery and reseller.
+                Selling plants to your contractor at a discount gives you access to a broader variety of plants at a reasonable price.
+                In many cases what we don't have in stock we can buy wholesale from larger nurseries in the area.
+              </p>
+              <h5>Mediterranean Climate</h5>
+              <p>
+                We grow many specialized Agave and Aloe to larger sizes exactly because they are so well suited to our mild (and dry) Bay Area climate.
+                In general plants from other Mediterranean regions around the world will adapt well to life on the S.F. Penninsula and
+                mixing a variety of plant forms, textures and colors means your low water use garden doesn't have to look like a desert.
+              </p>
+              <h5>Pollenators</h5>
+              <p>
+                Garden spaces are so much more interesting when wildlife visits (ok - not <em>all</em> wildlife)!
+                We are lucky in the Bay Area in that with a little planning we can have something in bloom just about year round.
+                For example Aloes bloom during the Winter which means they attract lots of hummingbirds and bees at a time when they can most use the food.
+              </p>
             </div>
 
           </div>
         </Container>
 
+        <div className={styles.imageContainer}>
+          <img alt={'Puya plant'} src={'/IMG_5946.jpg'}></img>
+        </div>
       </div>
     </Layout>
   );
