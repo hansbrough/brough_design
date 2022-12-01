@@ -60,7 +60,7 @@ const IndexPage = () => {
         bgColor={'var(--standard-light-grey)'}
         title={'about Brough Design'}
         quote={
-          '“Waterwise gardens don\'t have to look like a desert. There are many plants from around the world which can help achieve a verdant looking garden with less water.”'
+          '“Waterwise gardens don\'t have to look like a desert. There are lots of plants from around the world which can help create a verdant garden with less water.”'
         }
       />
 
@@ -75,12 +75,13 @@ const IndexPage = () => {
       {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
-          image={'/banner3.png'}
-          title={'We are Sustainable'}
+          image={'/greenhouse_bulbils.jpg'}
+          title={'Shop for Plants'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'From Aloes to Agave and Cacti, discover plants on our partner store.'
           }
-          ctaText={'read more'}
+          ctaText={'shop now'}
+          ctaAction={() => window.open("https://dryoasisplants.com","_blank")}
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />

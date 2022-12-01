@@ -11,8 +11,7 @@ import Container from '../components/Container';
 
 const SupportPage = (props) => {
   const subpages = [
-    { title: 'Contact Us', key: 'contact' },
-    { title: 'Billing', key: 'billing' },
+    { title: 'Contact Us', key: 'contact' }
   ];
 
   const [current, setCurrent] = useState(subpages[0]);

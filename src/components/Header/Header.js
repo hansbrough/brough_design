@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Future Home of Brough Design';
+  const bannerMessage = 'Contact us to learn more about waterwise garden design';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
@@ -118,7 +118,7 @@ const Header = (prop) => {
             <Icon symbol={`${mobileMenu === true ? 'cross' : 'burger'}`}></Icon>
           </div>
           <Brand />
-          
+
         </div>
 
         {/* search container */}
