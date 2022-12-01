@@ -30,7 +30,7 @@
 .imageContainer {
     width: 100%;
     height: 700px;
-} 
+}
 
 .imageContainer img {
     width: 100%;
@@ -38,16 +38,31 @@
     object-fit: cover;
 }
 
+.imageContainer img.heightFit {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
 .blogSubHeader {
     font-size: 32px;
     line-height: 42px;
     font-weight: normal;
-    margin-bottom: 32px;
+    margin: 32px 0 24px 0;
 }
 
 .content {
     width: 90%;
     margin: 0 auto;
+}
+
+.blogParagraph a {
+  color: var(--standard-gold);
+  text-decoration: none;
+}
+
+.blogParagraph a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 800px) {
@@ -72,5 +87,5 @@
     .imageContainer {
         height: 40vh;
     }
-    
+
 }

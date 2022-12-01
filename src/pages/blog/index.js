@@ -18,11 +18,11 @@ const BlogPage = (props) => {
       <div className={styles.root}>
         <Hero
           maxWidth={'400px'}
-          image={'/blogCover.png'}
-          title={`The new standard of Closing`}
+          image={'/blogs/succulent-extravaganza/IMG_3085.jpg'}
+          title={`Succulent Extravaganza`}
           ctaLink={'read story'}
-          ctaTo={'/blog/sample'}
-          header={'design'}
+          ctaTo={'/blog/succulent-extravaganza'}
+          header={'plant show'}
         />
 
         <div className={styles.navContainer}>
@@ -30,31 +30,25 @@ const BlogPage = (props) => {
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            All Posts
-          </ThemeLink>
-          <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
             Design
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
+            onClick={() => navigate('/blog/huntington-visit')}
             to={'/blog/sample'}
           >
-            Collaboration
+            Travel
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            to={'/blog/pescadero-gardens'}
           >
-            Interview
+            Garden Tours
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
+            to={'/blog/garden-cities'}
           >
-            News
+            City Planning
           </ThemeLink>
         </div>
 

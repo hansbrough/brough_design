@@ -1,66 +1,34 @@
 [
     {
-        "title": "The new standard of Opening and Closing",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog1.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "title": "Comparing a Southern Garden City with a Desert Garden City",
+        "category": "city and regional planning",
+        "alt": "what is the designed difference between cities?",
+        "image": "/blogs/blog-garden-cities-hero.jpg",
+        "link": "/blog/garden-cities",
+        "excerpt": "After visiting Palm Springs and Savannah a few months ago I thought the contrast between the two places was interesting."
     },
     {
-        "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "title": "Huntington Botanical Gardens",
+        "category": "travel",
+        "alt": "visiting the Huntington Botanical Gardens",
+        "image": "/blogs/blog-huntington-visit-hero.jpg",
+        "link": "/blog/huntington-visit",
+        "excerpt": "The Huntington is like Disneyland for plant aficionados - complete with a 'Main Street'."
     },
     {
-        "title": "It is a long established fact that a reader by the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.png",
-        "link": "/blog/sample",
-        "excerpt": "London-basedsonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "title": "Phipps Conservatory and Botanical Garden",
+        "category": "travel",
+        "alt": "visiting Phipps Conservatory and Botanical Garden",
+        "image": "/blogs/blog-phipps-visit-hero.jpg",
+        "link": "/blog/phipps-visit",
+        "excerpt": ""
     },
     {
-        "title": "It is a long establishable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog3.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long estab the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "Loproducers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "The new standard of Opening and Closing",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog1.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral tish flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long established fact that a reader by the readable",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
-    },
-    {
-        "title": "It is a long et a reader by the readable t is a long et a reader by the rea",
-        "category": "design",
-        "alt": "blog new standard of closing",
-        "image": "/blogs/blog2.png",
-        "link": "/blog/sample",
-        "excerpt": "London-bs and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
+        "title": "Pescadero Area Garden Tour",
+        "category": "garden tour",
+        "alt": "touring the gardens of Pescadero",
+        "image": "/blogs/blog-pescadero-hero.jpg",
+        "link": "/blog/pescadero-gardens",
+        "excerpt": "Touring private gardens in the South Coast region of San Mateo County."
     }
   ]

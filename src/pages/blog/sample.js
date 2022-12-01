@@ -12,32 +12,27 @@ const SamplePage = (props) => {
         <Container>
           <div className={styles.blogContainer}>
             <Blog
-              category={'design'}
-              title={'Friends of Sydney: Flora Fricker'}
-              image={'/blogFeatured.png'}
+              category={'City and Regional Planning'}
+              title={'Comparing Garden Cities'}
+              image={'/blogs/garden-cities/20220413_144619.jpg'}
               alt={''}
             >
               <div className={styles.content}>
                 <p className={styles.excerpt}>
-                  London-based floral designer Flora Fricker champions seasonal
-                  British flowers and UK producers in her beautiful and
-                  sustainable creations. This season, we worked with Flora to
-                  style Sunspel stores for Christmas, for which she produced
-                  eye-catching sustainably sourced wreaths.
+                  Cities have an iconic sense of place because they've responded to unique environmental and historical circumstances.
+                  It's their uniqueness which helps to make both Savannah and Palm Springs popular destinations.
                 </p>
                 <p className={styles.blogParagraph}>
-                  Delaware limited liability company (The Sydney) collects
-                  personal information that you voluntarily provide when
-                  applying or registering for an account with The Upside or
-                  making a purchase on The Upside website; www.theupside.com
-                  (the Website).
+                  I started a post entitled "The Mid Century Modern Landscape in Palm Springs" after a road trip to the area last year but somehow never managed to finish.
+                  After visiting Savannah Georgia a few months ago I thought the contrast between the two places was interesting.
+                  The history, geography and climate of both are uniquely different and have contributed to the creation of different gardens and public spaces. An entire book could be written about this topic.
+                  I won't be able to do it justice in this format - so apologies in advance for any glaring omissions.
                 </p>
+                <h3 className={styles.blogSubHeader}>A Shockingly Short History of both Places</h3>
                 <p className={styles.blogParagraph}>
-                  This Privacy Policy (Privacy Policy) outlines how your
-                  information is collected, used and disclosed when you access
-                  or use our Services as defined in our Terms. This information
-                  is collected, used and disclosed in accordance with the
-                  Privacy Act 1988 (Cth) (Privacy Act).
+                  Palm Springs started to become a residential community in the mid 1920's as Hollywood stars sought a nearby place of refuge from gossip columnists.
+                  Most of it's architecture and public spaces date from this period onward.
+                  Many of it's neighborhoods were created en masse by developers which contributes to it's suburban vibe.
                 </p>
                 <p className={styles.blogParagraph}>
                   This Privacy Policy is incorporated by reference into our
