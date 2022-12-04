@@ -27,7 +27,7 @@ const AboutPage = (props) => {
         {/* Hero Container */}
         <Hero
           maxWidth={'900px'}
-          image={'/focal_point.jpg'}
+          image={'/agave-salmiana-ferox.jpg'}
           title={`Beautiful, \n Useful, \n garden spaces.`}
         />
 
@@ -63,7 +63,7 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'waterwise garden wall'} src={'/agave-salmiana-ferox.jpg'}></img>
+          <img alt={'waterwise garden wall'} src={'/IMG_5801.jpg'}></img>
         </div>
 
         <Container size={'large'} spacing={'min'}>

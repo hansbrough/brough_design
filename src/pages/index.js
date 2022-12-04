@@ -20,20 +20,18 @@ const IndexPage = () => {
   const newArrivals = generateMockProductData(3, 'shirt');
   const blogData = generateMockBlogData(3);
 
-  const goToShop = () => {
-    navigate('/shop');
-  };
+  // const goToShop = () => {
+  //   navigate('/shop');
+  // };
 
   return (
     <Layout disablePaddingBottom>
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/IMG_5810.JPG'}
+        image={'/focal_point.jpg'}
         title={'Garden Inspiration'}
         subtitle={'Using waterwise plants'}
-        ctaText={'explore now'}
-        ctaAction={goToShop}
       />
 
       {/* Message Container */}
