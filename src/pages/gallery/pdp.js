@@ -15,17 +15,15 @@ import Icon from '../../components/Icons/Icon';
 import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
 
 const PdpPage = (props) => {
-  console.log("Sample Product page props:",props)
   const { location } = props;
   const image = location?.state?.image;
   const imageAlt = location?.state?.imageAlt;
   const slug = location?.state?.slug;
-  console.log("...slug:",slug)
   const ctxAddItemNotification = useContext(AddItemNotificationContext);
   const showNotification = ctxAddItemNotification.showNotification;
   const sampleProduct = generateMockProductData(1, 'sample')[0];
   const pdpItem = getCollectionItemData(slug);
-  console.log("...pdpItem:",pdpItem)
+
   const [qty, setQty] = useState(0);
   const [isWishlist, setIsWishlist] = useState(false);
   const [activeSwatch, setActiveSwatch] = useState(
@@ -34,7 +32,7 @@ const PdpPage = (props) => {
   const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
 
 
-  return (
+  return pdpItem && (
     <Layout>
       <div className={styles.root}>
         <Container size={'large'} spacing={'min'}>
@@ -81,7 +79,7 @@ const PdpPage = (props) => {
                 </div>
               </div>
               */}
-              
+
               <div className={styles.description}>
                 <p>{pdpItem.description}</p>
               </div>
