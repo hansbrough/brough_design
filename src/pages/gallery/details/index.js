@@ -20,7 +20,7 @@ const ShopPage = (props) => {
             <Breadcrumbs
               crumbs={[
                 { link: '/', label: 'Home' },
-                { link: '/', label: 'Gallery' },
+                { link: '/gallery/', label: 'Gallery' },
                 { label: 'Details' },
               ]}
             />
@@ -30,7 +30,7 @@ const ShopPage = (props) => {
           maxWidth={'650px'}
           name={`Details`}
           subtitle={
-            'Sometimes in the garden it makes sense to add a section with a larger amount of detail.'
+            'Whether in a pot or in the ground it makes sense to add more detail to your garden in areas where visitors are have the time to look.'
           }
         />
         <Container size={'large'} spacing={'min'}>

@@ -166,6 +166,7 @@ const Header = (prop) => {
       </Container>
 
       {/* menu container */}
+      {/*
       <div
         role={'presentation'}
         onMouseLeave={() => setShowMenu(false)}
@@ -178,7 +179,7 @@ const Header = (prop) => {
           <ExpandedMenu menu={menu} />
         </Container>
       </div>
-
+      */}
       {/* minicart container */}
       <Drawer visible={showMiniCart} close={() => setShowMiniCart(false)}>
         <MiniCart />

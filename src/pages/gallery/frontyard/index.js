@@ -20,7 +20,7 @@ const ShopPage = (props) => {
             <Breadcrumbs
               crumbs={[
                 { link: '/', label: 'Home' },
-                { link: '/', label: 'Gallery' },
+                { link: '/gallery/', label: 'Gallery' },
                 { label: 'Frontyard' },
               ]}
             />
