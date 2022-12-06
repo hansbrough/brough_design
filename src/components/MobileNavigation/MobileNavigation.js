@@ -27,6 +27,7 @@ const MobileNavigation = (props) => {
   return (
     <div className={styles.root}>
       <nav>
+      {/*
         <div className={styles.headerAuth}>
           {depth === 0 && isAuth() === false && (
             <div className={styles.authLinkContainer}>
@@ -85,7 +86,8 @@ const MobileNavigation = (props) => {
             </div>
           )}
         </div>
-
+        */}
+        
         <div className={styles.mobileNavContainer}>
           {/* dynamic portion */}
           {depth === 0 && (

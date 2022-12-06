@@ -41,7 +41,7 @@ const BlogPostPage = (props) => {
                 </figure>
                 <figure className={styles.imageContainer}>
                   <img className={styles.heightFit} src={'/blogs/huntington-visit/IMG_7283.JPG'} alt={'Large pot filled with many plants'} />
-                  <figcaption>We all need a garden pot filled with plants liek this one!</figcaption>
+                  <figcaption>We all need a garden pot filled with plants like this one!</figcaption>
                 </figure>
                 <p className={styles.blogParagraph}>
                   At end of the entrance alley is a rill with paths on either side leading visitors toward the heart of the botanical gardens.
