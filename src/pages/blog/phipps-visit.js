@@ -19,38 +19,20 @@ const SamplePage = (props) => {
             >
               <div className={styles.content}>
                 <p className={styles.excerpt}>
-                  tbd
+
                 </p>
                 <p className={styles.blogParagraph}>
-                  tbd
+
                 </p>
                 <p className={styles.blogParagraph}>
-                  tbd
+
                 </p>
                 <p className={styles.blogParagraph}>
-                  tbd
+
                 </p>
               </div>
-              <div className={styles.imagesContainer}>
-                <div className={styles.imageContainer}>
-                  <img src={'/cloth.png'} alt={'sample1'} />
-                </div>
-                <div className={styles.imageContainer}>
-                  <img src={'/collections/collection1.png'} alt={'sample2'} />
-                </div>
-              </div>
-              <div className={styles.content}>
-                <h2 className={styles.blogSubHeader}>2. Lorem ipsum</h2>
-                <p className={styles.blogParagraph}>
-                  tbd
-                </p>
-                <p className={styles.blogParagraph}>
-                  tbd
-                </p>
-                <p className={styles.blogParagraph}>
-                  tbd
-                </p>
-              </div>
+
+              
             </Blog>
           </div>
         </Container>
