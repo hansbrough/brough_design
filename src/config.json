@@ -18,9 +18,9 @@
     "youtube": "https://www.youtube.com/channel/UCGDbGgLBA8U3v_iphCumc2A"
   },
   "paymentOptions": {
-    "visa": true,
-    "mastercard": true,
-    "amex": true
+    "visa": false,
+    "mastercard": false,
+    "amex": false
   },
   "footerLinks": [
     {
@@ -32,7 +32,7 @@
         },
         {
           "text": "Gallery",
-          "link": "/shop"
+          "link": "/gallery"
         },
         {
           "text": "Process",
