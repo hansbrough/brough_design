@@ -5,6 +5,7 @@ import Container from '../components/Container';
 import Hero from '../components/Hero';
 import ThemeLink from '../components/ThemeLink';
 import Layout from '../components/Layout/Layout';
+import { StaticImage } from "gatsby-plugin-image";
 
 import * as styles from './about.module.css';
 const AboutPage = (props) => {
@@ -20,6 +21,8 @@ const AboutPage = (props) => {
       });
     }
   };
+
+  const imgDirPath = '../../static/';
 
   return (
     <Layout disablePaddingBottom>
@@ -63,7 +66,12 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'waterwise garden wall'} src={'/IMG_5801.jpg'}></img>
+          <StaticImage
+            placeholder="blurred"
+            src={`${imgDirPath}IMG_5801.JPG`}
+            alt={'waterwise garden wall'}
+            layout="fullWidth"
+          />
         </div>
 
         <Container size={'large'} spacing={'min'}>
@@ -108,7 +116,12 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'waterwsie nursery plants'} src={'/nursery_plants.jpg'}></img>
+          <StaticImage
+            placeholder="blurred"
+            src={`${imgDirPath}nursery_plants.jpg`}
+            alt={'waterwsie nursery plants'}
+            layout="fullWidth"
+          />
         </div>
 
         <Container size={'large'} spacing={'min'}>
@@ -142,7 +155,12 @@ const AboutPage = (props) => {
         </Container>
 
         <div className={styles.imageContainer}>
-          <img alt={'Puya plant'} src={'/IMG_5946.jpg'}></img>
+          <StaticImage
+            placeholder="blurred"
+            src={`${imgDirPath}IMG_5946.jpg`}
+            alt={'Puya plant'}
+            layout="fullWidth"
+          />
         </div>
       </div>
     </Layout>
