@@ -171,11 +171,43 @@
     "category":"details",
     "image": "/collections/details/20220909_154043.jpg",
     "title": "Miniature Agaves",
-    "description": "Along an uneven set of steps where vistors are forced to walk slowly is a set of miniture agave that deserve a careful look.",
+    "description": "Along an uneven set of steps where vistors are forced to walk slowly is a set of miniture agave that deserve a careful look. Too much detail in the wrong spot can be missed so it needs to be applied judiciously.",
     "plants": ["Agave titanota \"Lion's Mane\"","Agave potatorum var. verschaffeltii"],
-    "materials": ["Telluride Gold Drystack","Crushed Rose Gold","Hand collected rock"],
+    "materials": ["Telluride Gold Drystack","Crushed 'Rose Gold' gravel","Hand collected rock"],
     "care": "",
     "slug": "miniature-agave",
+    "location":"San Carlos Demonstration Garden"
+  },
+  {
+    "type":"zone",
+    "category":"details",
+    "image": "/collections/details/000_3051.JPG",
+    "title": "Light and Shadow",
+    "description": "Light is the most epheral of elements in your garden that changes by time of day and year. Shadow play creates a changing mood in the garden throughout the day helping to bring a space to life.",
+    "plants": ["Eastern Redbud"],
+    "materials": ["Stucco garden wall"],
+    "slug": "light-and-shadow",
+    "location":"Brisbane"
+  },
+  {
+    "type":"zone",
+    "category":"details",
+    "image": "/collections/details/IMG_7419.JPG",
+    "title": "Rythm",
+    "description": "Like notes in a piece of music the placement and repition of materials brings a sense of movement to your garden.",
+    "plants": ["Agave 'Blue Flame'","Coast Woolly Bush","Puya","Aloe pseudorubroviolacea","Agave 'Durango'"],
+    "materials": ["Bronze Dry Stack Rock","Hand collected rock","Crushed 'Rose Gold' gravel"],
+    "slug": "rythm",
+    "location":"San Carlos Demonstration Garden"
+  },
+  {
+    "type":"zone",
+    "category":"details",
+    "image": "/collections/details/IMG_7373.JPG",
+    "title": "Form and Texture",
+    "description": "Leaf shape helps determine a plant's texture. Form is determined by a plant's overall shape. Massing texture creates harmony; adding contrasting form or texture creates areas of interest which serve as punctuation.",
+    "plants": ["Aloe vanbalenii","French lavender"],
+    "slug": "form-and-texture",
     "location":"San Carlos Demonstration Garden"
   },
   {
