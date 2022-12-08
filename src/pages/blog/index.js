@@ -27,25 +27,19 @@ const BlogPage = (props) => {
 
         <div className={styles.navContainer}>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
-            to={'/blog/sample'}
-          >
-            Design
-          </ThemeLink>
-          <ThemeLink
             onClick={() => navigate('/blog/huntington-visit')}
-            to={'/blog/sample'}
+            to={'/blog/huntington-visit'}
           >
             Travel
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
+            onClick={() => navigate('/blog/pescadero-gardens')}
             to={'/blog/pescadero-gardens'}
           >
             Garden Tours
           </ThemeLink>
           <ThemeLink
-            onClick={() => navigate('/blog/sample')}
+            onClick={() => navigate('/blog/garden-cities')}
             to={'/blog/garden-cities'}
           >
             City Planning
