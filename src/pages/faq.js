@@ -43,9 +43,9 @@ const FaqPage = (props) => {
                 Understanding the difference between a Landscape Designer and Architect often escapes most people until they need to hire one.
                 The difference is one of licensing, technical expertise and perhaps experience. Landscape Architects have graduated from an accredited university program, interned at a licensed firm and passed a set of rigorous state exams.
                 Landscape Architects may also end up specializing in areas like building Regional Parks, Zoo's, Golf Course design, etc.
-                Landscape Designers generally have some form of schooling but are legally limmited in scope to residential design that does not include some of the more technical aspects like a producing grading and drainage plan.
+                Landscape Designers generally have some form of schooling but are legally limited in scope to residential design that does not include some of the more technical aspects like a producing grading and drainage plan.
                 As a result there are some aspects of a project that will require the services of a licensed Landscape Architect and/or Engineer such as retaining walls over 3 ft in height, pools, use of high voltage electrical (e.g. 120 volt household current), natural gas and structures such as a pergola.
-                If your project requires detailed construction documents to be approved by the local building department chances are you will need hire a licensed Landscape Architect.
+                If your project requires detailed construction documents to be approved by the local building department chances are you will need to hire a licensed Landscape Architect.
                 Landscape Designers are not required to be licensed by the state and can be an excellent choice when your residential project is smaller in scale and includes primarily planting changes.
               </p>
             </div>
