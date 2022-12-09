@@ -192,6 +192,11 @@
         margin-right: 0px;
     }
 
+    .pdpHero {
+        margin-right: 0;
+        position: static;
+    }
+
     .suggestionContainer h2 {
         font-size: 22px;
         line-height: 26px;
