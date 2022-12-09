@@ -30,8 +30,9 @@
 
 @media (max-width: 800px) {
     .root {
-        padding-left: 16px;
-        padding-right: 16px;
+      margin-top: 32px;
+      padding-left: 16px;
+      padding-right: 16px;
     }
 
     .hideSubtitleOnMobile {

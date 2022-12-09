@@ -84,7 +84,7 @@ const AboutPage = (props) => {
               </p>
               <h5>Site Analysis and Inspiration</h5>
               <p>
-                If we both agree to proceed after the consultation The next steps are to measure, map and analyze your site in order to create a base plan which will be used as design alternatives are explored.
+                If we both agree to proceed after the consultation the next steps are to measure, map and analyze your site in order to create a base plan which will be used as design alternatives are explored.
                 Site analysis includes investigating local ordinances that may impact your landscape project.
                 We will also work together to catalog inspirational plants, materials and garden designs from around the neighborhood, online or from books as a tool to understand your preferences.
               </p>
@@ -100,8 +100,8 @@ const AboutPage = (props) => {
               <h5>Implementation</h5>
               <p>
                 During the construction phase we will be available to advise and work through any challenges that may arise.
-                We can also act as an advocate on your behalf during installation - for example ensuring that plant and path layouts matches the design.
-                As a licensed nursery sourcing plant materials is one of specialties so we can work with your contractor to find quality plants.
+                We can also act as an advocate on your behalf during installation - for example ensuring that plant and path layouts match the design.
+                As a licensed nursery sourcing plant materials is one of our specialties. We can work with your contractor to find quality plants.
               </p>
             </div>
           </div>
