@@ -20,7 +20,9 @@ const Dropdown = (props) => {
               value={option.value}
               aria-label={`option ${label}`}
               label={option.label}
-            />
+            >
+            {option.label}
+            </option>
           ))}
         </select>
         <div className={styles.caretContainer}>
