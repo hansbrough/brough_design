@@ -29,7 +29,7 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          Doses of <span className={styles.gold}>attention</span> and <span className={styles.gold}>imagination</span> added to every design.
+          <span className={styles.gold}>attention</span> and <span className={styles.gold}>imagination</span> applied to every design.
         </p>
       </div>
 
