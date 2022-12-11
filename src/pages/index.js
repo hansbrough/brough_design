@@ -16,10 +16,6 @@ import * as styles from './index.module.css';
 const IndexPage = () => {
   const blogData = generateMockBlogData(3);
 
-  // const goToShop = () => {
-  //   navigate('/shop');
-  // };
-
   return (
     <Layout disablePaddingBottom>
       {/* Hero Container */}
