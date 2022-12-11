@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { navigate } from 'gatsby';
 import * as styles from './GalleryCard.module.css';
-import Icon from '../Icons/Icon';
 
 const GalleryCard = (props) => {
-  console.log("GalleryCard props:",props)
-  const [isWishlist, setIsWishlist] = useState(false);
+  //const [isWishlist, setIsWishlist] = useState(false);
   const {
     itemPath,
     image,
@@ -19,10 +17,10 @@ const GalleryCard = (props) => {
     itemPath && navigate(itemPath, { state: { image, slug } });
   };
 
-  const handleFavorite = (e) => {
-    e.stopPropagation();
-    setIsWishlist(!isWishlist);
-  };
+  // const handleFavorite = (e) => {
+  //   e.stopPropagation();
+  //   setIsWishlist(!isWishlist);
+  // };
 
   return (
     <div className={styles.root}>

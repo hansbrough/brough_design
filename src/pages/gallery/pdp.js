@@ -1,35 +1,29 @@
-import React, { useState, useContext } from 'react';
+import React from 'react';
 import * as styles from './pdp.module.css';
 import Accordion from '../../components/Accordion';
-import AdjustItem from '../../components/AdjustItem';
-import Button from '../../components/Button';
 import Breadcrumbs from '../../components/Breadcrumbs';
 import Container from '../../components/Container';
-import CurrencyFormatter from '../../components/CurrencyFormatter';
-import SizeList from '../../components/SizeList';
-import SwatchList from '../../components/SwatchList';
 import Layout from '../../components/Layout/Layout';
-import { generateMockProductData } from '../../helpers/mock';
+//import { generateMockProductData } from '../../helpers/mock';
 import { getCollectionItemData } from '../../helpers/localFetch';
-import Icon from '../../components/Icons/Icon';
-import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
+//import AddItemNotificationContext from '../../context/AddItemNotificationProvider';
 
 const PdpPage = (props) => {
   const { location } = props;
-  const image = location?.state?.image;
-  const imageAlt = location?.state?.imageAlt;
+  //const image = location?.state?.image;
+  //const imageAlt = location?.state?.imageAlt;
   const slug = location?.state?.slug;
-  const ctxAddItemNotification = useContext(AddItemNotificationContext);
-  const showNotification = ctxAddItemNotification.showNotification;
-  const sampleProduct = generateMockProductData(1, 'sample')[0];
+  //const ctxAddItemNotification = useContext(AddItemNotificationContext);
+  //const showNotification = ctxAddItemNotification.showNotification;
+  //const sampleProduct = generateMockProductData(1, 'sample')[0];
   const pdpItem = getCollectionItemData(slug);
 
-  const [qty, setQty] = useState(0);
-  const [isWishlist, setIsWishlist] = useState(false);
-  const [activeSwatch, setActiveSwatch] = useState(
-    sampleProduct.colorOptions[0]
-  );
-  const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
+  //const [qty, setQty] = useState(0);
+  //const [isWishlist, setIsWishlist] = useState(false);
+  // const [activeSwatch, setActiveSwatch] = useState(
+  //   sampleProduct.colorOptions[0]
+  // );
+  //const [activeSize, setActiveSize] = useState(sampleProduct.sizeOptions[0]);
 
 
   return pdpItem && (

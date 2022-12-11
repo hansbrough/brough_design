@@ -34,7 +34,7 @@ const ShopPage = (props) => {
           }
         />
         <Container size={'large'} spacing={'min'}>
-          <div className={styles.GalleryContainer}>
+          <div>
             <GalleryCardGrid data={data} category="frontyard"></GalleryCardGrid>
           </div>
 

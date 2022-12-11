@@ -13,7 +13,7 @@ module.exports = {
         background_color: `#000000`,
         theme_color: `#ffffff`,
         display: `standalone`,
-        icon: 'src/assets/favicon.png',
+        icon: 'src/assets/favicon-16x16.png',
       },
     },
     'gatsby-plugin-netlify',
