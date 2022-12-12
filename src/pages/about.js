@@ -97,6 +97,10 @@ const AboutPage = (props) => {
               <p>
                 Decisions made during conceptual design phase will be formalized in a set of final design documents which can be used to solicit bids from contractors.
               </p>
+              <figure>
+                <img src={'/IMG_3991.JPG'} alt={'Planting Plan'} />
+                <figcaption>Example Planting Plan</figcaption>
+              </figure>
               <h5>Implementation</h5>
               <p>
                 During the construction phase we will be available to advise and work through any challenges that may arise.
