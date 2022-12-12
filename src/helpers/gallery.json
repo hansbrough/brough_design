@@ -86,6 +86,28 @@
   {
     "type":"zone",
     "category":"frontyard",
+    "image": "/collections/frontyard/IMG_3973.jpg",
+    "title": "Newly Installed",
+    "description": "Front yard revamp included a new dry stacked stone wall, formalized path with panting circle and water feature as well as nearly all new plant palette.",
+    "plants": ["Agave 'Blue Flame'","Agave attenuata 'Ray of Light'","Senecio serpens","Acacia 'Cousin Itt'","Blue Grama Grass","Pittosporum 'Silver Sheen'"],
+    "materials": ["Blue grey fines","Doug Fir mini mulch","Connecticut Blue Flagstone"],
+    "slug": "san-carlos-front-street-view",
+    "location":"San Carlos"
+  },
+  {
+    "type":"zone",
+    "category":"frontyard",
+    "image": "/collections/frontyard/IMG_3981.jpg",
+    "title": "Formalized Path",
+    "description": "Flagstone from an existing path was re-used and augmented in order to add garden structure. A planting circle with perennials and water feature were also added.",
+    "plants": ["Woolly Thyme","Dianella 'Clarity Blue'","Ameria","Nepeta 'Blue'","Pittosporum 'Silver Sheen'"],
+    "materials": ["Blue grey fines","Doug Fir mini mulch","Connecticut Blue Flagstone","metal edging"],
+    "slug": "san-carlos-front-path-view",
+    "location":"San Carlos"
+  },
+  {
+    "type":"zone",
+    "category":"frontyard",
     "image": "/collections/frontyard/IMG_5009.jpg",
     "title": "Mangaves on the March",
     "description": "Repetition of planting materials is an old but effective technique. By itself this Mangave 'Lavender Lady' has a striking form - taken together they fluidly echo the line of the wall.",
