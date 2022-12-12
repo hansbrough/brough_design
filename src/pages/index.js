@@ -68,7 +68,7 @@ const IndexPage = () => {
           image={'/greenhouse_bulbils.jpg'}
           title={'Shop for Plants'}
           subtitle={
-            'From Aloes to Agave and Cacti, discover plants on our partner store.'
+            'From Aloes to Agave and Cacti, discover plants on our retail store.'
           }
           ctaText={'shop now'}
           ctaAction={() => window.open("https://dryoasisplants.com","_blank")}
