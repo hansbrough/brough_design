@@ -31,11 +31,11 @@
 }
 
 .subtitle {
-
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    text-shadow: 1px 1px 1px var(--standard-dark-grey);
 }
 
 .ctaButton {

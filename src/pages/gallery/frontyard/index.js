@@ -30,7 +30,7 @@ const ShopPage = (props) => {
           maxWidth={'650px'}
           name={`Frontyard`}
           subtitle={
-            'copy TBD'
+            ''
           }
         />
         <Container size={'large'} spacing={'min'}>
