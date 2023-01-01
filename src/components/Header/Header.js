@@ -23,7 +23,6 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Contact us to learn more about waterwise garden design';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
@@ -77,7 +76,7 @@ const Header = (prop) => {
   return (
     <div className={styles.root}>
       <div className={styles.headerMessageContainer}>
-        <span>{bannerMessage}</span>
+        <span>Purchase plants at a trade discount <a href="https://broughplants.com/apply" target="_blank">broughplants.com/apply</a></span>
       </div>
       <Container size={'large'} spacing={'min'}>
         {/* header container */}
