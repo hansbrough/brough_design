@@ -133,9 +133,9 @@ const AboutPage = (props) => {
                   image={'/greenhouse_bulbils.jpg'}
                   title={'Find Plants for your Garden'}
                   subtitle={
-                    'Discover plants available at trade discounted prices.'
+                    'Trade discounted pricing is available to your contractor'
                   }
-                  ctaText={'Discover'}
+                  ctaText={'Find Plants'}
                   ctaAction={() => window.open("https://broughplants.com","_blank")}
                   maxWidth={'660px'}
                   ctaStyle={styles.ctaCustomButton}
