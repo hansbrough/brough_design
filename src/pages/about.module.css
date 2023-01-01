@@ -14,7 +14,7 @@
     border-bottom: 1px solid var(--bg-light-gray);
     position: sticky;
     gap: 48px;
-    top: 150px;
+    top: 108px;
     background-color: var(--standard-white);
     overflow-x: auto;
     padding-left: 32px;
@@ -34,13 +34,13 @@
 .detailContainer {
     margin-left: auto;
     max-width: 800px;
-    margin-top: 164px;
+    margin-top: 48px;
 }
 
 .detailContainer p{
     font-family: var(--standard-header);
     font-weight: normal;
-    font-size: 42px;
+    font-size: 32px;
     line-height: 50px;
 }
 

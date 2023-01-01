@@ -43,7 +43,7 @@ const AboutPage = (props) => {
           </ThemeLink>
         </div>
 
-        <Container size={'large'} spacing={'min'}>
+        <Container size={'medium'} spacing={'min'}>
           <div className={styles.detailContainer} ref={profileRef}>
             <p>
               Gardens are for people and garden design is about creating a space that works for the owner while still taking into account site contraints.
