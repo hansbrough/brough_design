@@ -8,6 +8,7 @@ import Layout from '../components/Layout/Layout';
 import ThemeLink from '../components/ThemeLink';
 import Policy from '../components/Policy';
 import Container from '../components/Container';
+import NotificationBanner from '../components/NotificationBanner';
 
 const SupportPage = (props) => {
   const subpages = [
@@ -15,13 +16,14 @@ const SupportPage = (props) => {
   ];
 
   const [current, setCurrent] = useState(subpages[0]);
+  const [showBanner, setShowBanner] = useState();
 
   const renderElement = (key) => {
     let tempElement = <React.Fragment />;
 
     switch (key) {
       case 'contact':
-        tempElement = <Contact />;
+        tempElement = <Contact showBanner={showBanner} setShowBanner={setShowBanner} />;
         break;
       case 'billing':
         tempElement = <Policy />;
@@ -50,6 +52,7 @@ const SupportPage = (props) => {
   }, [props.location]);
 
   return (
+    <>
     <Layout disablePaddingBottom>
       <div className={styles.root}>
         <Banner
@@ -95,6 +98,12 @@ const SupportPage = (props) => {
         </div>
       </div>
     </Layout>
+    { showBanner &&
+      <NotificationBanner
+        msg="Thanks for reaching out! We will reply within a few business days."
+      />
+    }
+    </>
   );
 };
 

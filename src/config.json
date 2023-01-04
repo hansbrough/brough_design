@@ -65,6 +65,11 @@
       "category": null
     },
     {
+      "menuLabel": "Plants",
+      "menuLink": "/plants",
+      "category": null
+    },
+    {
       "menuLabel": "About",
       "menuLink": "/about",
       "category": null

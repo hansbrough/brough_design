@@ -10,7 +10,6 @@ import * as styles from './about.module.css';
 const AboutPage = (props) => {
   let profileRef = useRef();
   let processRef = useRef();
-  let plantsRef = useRef();
 
   const handleScroll = (elementReference) => {
     if (elementReference) {
@@ -37,9 +36,6 @@ const AboutPage = (props) => {
           </ThemeLink>
           <ThemeLink onClick={() => handleScroll(processRef)} to={'#process'}>
             Process
-          </ThemeLink>
-          <ThemeLink onClick={() => handleScroll(plantsRef)} to={'#plants'}>
-            Plants
           </ThemeLink>
         </div>
 
@@ -108,53 +104,6 @@ const AboutPage = (props) => {
                 As a licensed nursery sourcing plant materials is one of our specialties. We can work with your contractor to find quality plants.
               </p>
             </div>
-          </div>
-        </Container>
-
-        <div className={styles.imageContainer}>
-          <img alt={'waterwsie nursery plants'} src={'/nursery_plants.jpg'}></img>
-        </div>
-
-        <Container size={'large'} spacing={'min'}>
-          <div className={styles.content}>
-            <h3>Plants</h3>
-            <div ref={plantsRef}>
-
-              <h5>Sourcing</h5>
-              <p>
-                Sometimes it can be a challenge to source plants included in a garden design which is part of why we decided to become a licensed nursery and reseller.
-                Selling plants to your contractor at a trade discount gives you access to a broader variety of plants at a reasonable price.
-                In many cases what we don't have in stock we can buy wholesale from larger nurseries in the area.
-                Signing up is easy - just send your landscape professional over to <a href="https://broughplants.com/apply" target="_blank">broughplants.com/apply</a>
-              </p>
-              {/* Promotion */}
-              <div className={styles.heroContainer}>
-                <Hero
-                  image={'/greenhouse_bulbils.jpg'}
-                  title={'Find Plants for your Garden'}
-                  subtitle={
-                    'Trade discounted pricing is available to your contractor'
-                  }
-                  ctaText={'Find Plants'}
-                  ctaAction={() => window.open("https://broughplants.com","_blank")}
-                  maxWidth={'660px'}
-                  ctaStyle={styles.ctaCustomButton}
-                />
-              </div>
-              <h5>Mediterranean Climate</h5>
-              <p>
-                We grow many specialized Agave and Aloe to larger sizes exactly because they are so well suited to our mild (and dry) Bay Area climate.
-                In general plants from other Mediterranean regions around the world will adapt well to life on the S.F. Penninsula and
-                mixing a variety of plant forms, textures and colors means your low water use garden doesn't have to look like a desert.
-              </p>
-              <h5>Pollenators</h5>
-              <p>
-                Garden spaces are so much more interesting when wildlife visits (ok - not <em>all</em> wildlife)!
-                We are lucky in the Bay Area in that with a little planning we can have something in bloom just about year round.
-                For example Aloes bloom during the Winter which means they attract lots of hummingbirds and bees at a time when they can most use the food.
-              </p>
-            </div>
-
           </div>
         </Container>
 
