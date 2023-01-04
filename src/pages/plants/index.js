@@ -26,7 +26,7 @@ const IndexPage = () => {
         maxWidth={'650px'}
         name={`Plants`}
         subtitle={
-          'Finding plants for your garden design.'
+          'Find plants for your landscape project.'
         }
       />
 
@@ -43,7 +43,7 @@ const IndexPage = () => {
           <div className={styles.heroContainer}>
             <Hero
               image={'/greenhouse_bulbils.jpg'}
-              title={'Find Plants for your Garden'}
+              title={'Find Plants for your Project'}
               subtitle={
                 'Trade discounted pricing is available to your contractor'
               }
