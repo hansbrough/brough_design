@@ -73,6 +73,11 @@
       "menuLabel": "About",
       "menuLink": "/about",
       "category": null
+    },
+    {
+      "menuLabel": "Contact",
+      "menuLink": "/support#contact",
+      "category": null
     }
   ],
   "filters": [
