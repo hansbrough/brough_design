@@ -78,6 +78,12 @@ const PdpPage = (props) => {
                 <p>{pdpItem.description}</p>
               </div>
 
+              {pdpItem.quote &&
+                <blockquote className={styles.quote}>
+                  <p>{pdpItem.quote}</p>
+                </blockquote>
+              }
+
               <div className={styles.informationContainer}>
                 {pdpItem.plants &&
                   <Accordion
