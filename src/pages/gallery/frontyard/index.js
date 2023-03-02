@@ -9,7 +9,7 @@ import GalleryCardGrid from '../../../components/GalleryCardGrid';
 import { getCollectionData } from '../../../helpers/localFetch';
 
 const ShopPage = (props) => {
-  const data = getCollectionData(6, 'zone', 'frontyard');
+  const data = getCollectionData(9, 'zone', 'frontyard');
 
 
   return (

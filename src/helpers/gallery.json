@@ -89,6 +89,7 @@
     "image": "/collections/frontyard/IMG_3973.jpg",
     "title": "Newly Installed",
     "description": "Front yard revamp included a new dry stacked stone wall, formalized path with panting circle and water feature as well as nearly all new plant palette.",
+    "quote":"Love it",
     "plants": ["Agave 'Blue Flame'","Agave attenuata 'Ray of Light'","Senecio serpens","Acacia 'Cousin Itt'","Blue Grama Grass","Pittosporum 'Silver Sheen'"],
     "materials": ["Blue grey fines","Doug Fir mini mulch","Connecticut Blue Flagstone"],
     "slug": "san-carlos-front-street-view",
@@ -100,10 +101,44 @@
     "image": "/collections/frontyard/IMG_3981.jpg",
     "title": "Formalized Path",
     "description": "Flagstone from an existing path was re-used and augmented in order to add garden structure. A planting circle with perennials and water feature were also added.",
+    "quote":"We are thrilled with our new front landscape, and could not have done it without Hans. He patiently worked with us through the design process and came up with a plan for our front yard that is timeless, beautiful, and drought resistant.  He then led us through the process of thoughtfully selecting beautiful plants.  And finally, he worked closely with our landscape contractor to accurately place the plants and ensure other details were properly attended to.  Hans was very responsive, easy to talk with, highly creative, and attentive to every detail.",
     "plants": ["Woolly Thyme","Dianella 'Clarity Blue'","Ameria","Nepeta 'Blue'","Pittosporum 'Silver Sheen'"],
     "materials": ["Blue grey fines","Doug Fir mini mulch","Connecticut Blue Flagstone","metal edging"],
     "slug": "san-carlos-front-path-view",
     "location":"San Carlos"
+  },
+  {
+    "type":"zone",
+    "category":"frontyard",
+    "image": "/collections/frontyard/20230221_123126.jpg",
+    "title": "Street Side Planting",
+    "description": "Low maintenance planting for a full sun, narrow space.",
+    "plants": ["Echeveria 'Rippling Waters'","Aloe rooikappe","Agave pedunculifera","Senecio serpens","Aloe dorothea 'HBG'"," Aloe 'Tangerine'","Aloe 'Moonglow'"],
+    "materials": ["Doug Fir Mulch","Sonoma Field Stone"],
+    "slug": "belmont-street-side-planting",
+    "location":"San Carlos"
+  },
+  {
+    "type":"zone",
+    "category":"frontyard",
+    "image": "/collections/frontyard/20230221_123027.jpg",
+    "title": "Oak Woodland",
+    "description": "Turf was added beneath mature Oaks. Plants selected to resist the occassiona soccer ball.",
+    "plants": ["Pittosporum 'Silver Sheen'","Leucadendron 'Wisons Wonder'","Western Redbud","French Lavender","Western Sword Fern","Australian Fuchsia"],
+    "materials": ["Doug Fir Mulch","turf","Sonoma Field Stone"],
+    "slug": "belmont-front-woodland-turf",
+    "location":"Belmont"
+  },
+  {
+    "type":"zone",
+    "category":"frontyard",
+    "image": "/collections/frontyard/20230221_122958.jpg",
+    "title": "Oak Woodland",
+    "description": "Plants selected to complement mature Oaks.",
+    "plants": ["Leucadendron 'Wisons Wonder'","Western Sword Fern","Australian Fuchsia", "Coral Bells"],
+    "materials": ["Doug Fir Mulch","Sonoma Field Stone","Flagstone"],
+    "slug": "belmont-front-woodland-garden",
+    "location":"Belmont"
   },
   {
     "type":"zone",
