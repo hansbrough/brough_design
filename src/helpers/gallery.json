@@ -85,6 +85,18 @@
   },
   {
     "type":"zone",
+    "category":"backyard",
+    "image": "/collections/backyard/outside_looking_in.jpg",
+    "title": "Potager Garden",
+    "description": "A variety of scented perrenials and kitchen herbs compose this gated potager garden located inside a small fruit orchard.",
+    "plants": ["Agave 'Blue Flame'","Yarrow","East Friesland Meadow Sage","Provence French Lavender","Lemon Thyme","Hummingbird Mint","Phormium 'Yellow Wave'","African geranium","Oregano","Chives","Rosemary","Mint","Meyer Lemon"],
+    "materials": ["Blue Stone","Cedar","Cobblestone","Grey fines","Metal Edging"],
+    "care": "",
+    "slug": "potager-garden-entrance",
+    "location":"Woodside"
+  },
+  {
+    "type":"zone",
     "category":"frontyard",
     "image": "/collections/frontyard/IMG_3973.jpg",
     "title": "Newly Installed",

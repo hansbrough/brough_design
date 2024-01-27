@@ -55,7 +55,7 @@ const Contact = (props) => {
         <div className={styles.section}>
           <h4>Email</h4>
           <p>
-            You can email us at info@broughdesign.com with questions
+            You can email us at hans@dryoasisgardening.com with questions
             or use the contact form below to tell us about your project.
           </p>
         </div>
