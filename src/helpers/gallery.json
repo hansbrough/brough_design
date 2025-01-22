@@ -2,6 +2,40 @@
   {
     "type":"zone",
     "category":"backyard",
+    "image": "/collections/backyard/pool_patio.jpg",
+    "title": "Refreshing hardscape surrounding a Pool",
+    "description": "Updating hardscape around an existing pool.",
+    "plants": ["Lomandra 'Platinum Beauty'"],
+    "materials": ["McNear Sacramento Brick","McNear Slatestone","Bluestone cap with beveled edge"],
+    "slug": "pool-hardscape-refresh",
+    "location":"San Mateo"
+  },
+  {
+    "type":"zone",
+    "category":"backyard",
+    "image": "/collections/backyard/outside_looking_in.jpg",
+    "title": "Potager Garden",
+    "description": "A variety of scented perrenials and kitchen herbs compose this gated potager garden divided into quadrants around a citrus tree.",
+    "plants": ["Agave 'Blue Flame'","Yarrow","East Friesland Meadow Sage","Provence French Lavender","Lemon Thyme","Hummingbird Mint","Phormium 'Yellow Wave'","African geranium","Oregano","Chives","Rosemary","Mint","Meyer Lemon"],
+    "materials": ["Blue Stone","Cedar","Cobblestone","Grey fines","Metal Edging"],
+    "care": "",
+    "slug": "potager-garden-entrance",
+    "location":"Woodside"
+  },
+  {
+    "type":"zone",
+    "category":"backyard",
+    "image": "/collections/backyard/circular_patio.jpg",
+    "title": "Circular Patio",
+    "description": "A circular patio with seating wall creates a gathering space for family and friends.",
+    "plants": ["Western Sword Fern","Lomandra"],
+    "materials": ["McNear Sacramento Brick","McNear Slatestone","Bluestone cap with beveled edge"],
+    "slug": "circular-patio",
+    "location":"San Mateo"
+  },
+  {
+    "type":"zone",
+    "category":"backyard",
     "image": "/collections/backyard/IMG_3603.jpg",
     "title": "Spikey Beach",
     "description": "Create a shoreline of spikey plants that share an attribute like color, form or texture.",
@@ -82,18 +116,6 @@
     "care": "",
     "slug": "focal-point-plant",
     "location":"San Carlos"
-  },
-  {
-    "type":"zone",
-    "category":"backyard",
-    "image": "/collections/backyard/outside_looking_in.jpg",
-    "title": "Potager Garden",
-    "description": "A variety of scented perrenials and kitchen herbs compose this gated potager garden located inside a small fruit orchard.",
-    "plants": ["Agave 'Blue Flame'","Yarrow","East Friesland Meadow Sage","Provence French Lavender","Lemon Thyme","Hummingbird Mint","Phormium 'Yellow Wave'","African geranium","Oregano","Chives","Rosemary","Mint","Meyer Lemon"],
-    "materials": ["Blue Stone","Cedar","Cobblestone","Grey fines","Metal Edging"],
-    "care": "",
-    "slug": "potager-garden-entrance",
-    "location":"Woodside"
   },
   {
     "type":"zone",
@@ -203,6 +225,17 @@
   {
     "type":"zone",
     "category":"hillside",
+    "image": "/collections/hillside/woodland_hillside.jpg",
+    "title": "Hillside Fern Garden",
+    "description": "Two retaining walls create this small, private garden designed to blend seemlessly into a woodland hillside.",
+    "plants": ["Oakleaf Hydranga","Western Sword Fern","Leather Leaf Fern","Blue Eyed Grass","Douglas Iris"],
+    "materials": ["Moss Rock","Reclaimed stumps and logs", "Cedar","Flagstone"],
+    "slug": "woodland-pocket-garden",
+    "location":"Woodside"
+  },
+  {
+    "type":"zone",
+    "category":"hillside",
     "image": "/collections/hillside/20221113_123912.jpg",
     "title": "Rock Rip-Rap",
     "description": "In some cases hillsides can be retained with boulders instead of (or in addition to) retaining walls. Interspersed planting will over time soften the slope.",
@@ -227,6 +260,15 @@
   {
     "type":"zone",
     "category":"details",
+    "image": "/collections/details/seating_wall.jpg",
+    "title": "Seating Wall",
+    "description": "A free standing seating wall surrounding a circular patio. Materials selected to match existing hardscape.",
+    "slug": "seating-wall",
+    "location":"San Mateo"
+  },
+  {
+    "type":"zone",
+    "category":"details",
     "image": "/collections/details/IMG_5454.jpg",
     "title": "Potted Combo",
     "description": "A large pot of plants with contrasting form, color and texture for Summer weekends on the patio.",
@@ -234,6 +276,15 @@
     "care": "Occasional Summer watering once established.",
     "slug": "potted-combo",
     "location":"San Carlos"
+  },
+  {
+    "type":"zone",
+    "category":"details",
+    "image": "/collections/details/gate_with_stone_pillars.jpg",
+    "title": "Garden Gate with Stone Pillars",
+    "description": "Free standing pillars framing custom gated entrance to an herb garden.",
+    "slug": "gate-pillars",
+    "location":"Woodside"
   },
   {
     "type":"zone",
