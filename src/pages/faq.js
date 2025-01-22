@@ -34,7 +34,7 @@ const FaqPage = (props) => {
                 Smaller projects usually include a portion of the property and need a limited set of construction documents like a planting plan and calling out semi-permanent hardscape such as dry laid flagstone paths or low dry stack walls.
                 Design costs for smaller projects will typically run between $2,000 - $4,000.
                 Larger projects are ones that include redesigning both front, back yards, and may include grading and drainage work, low voltage lighting plans, or irrigation plans for areas of planting greater than 500 sqft.
-                Design costs for larger projects will typically run between $4,000 - $10,000.
+                Design costs for larger projects will typically run between $4,000 - $20,000 or more.
               </p>
             </div>
             <div className={styles.subSection}>
